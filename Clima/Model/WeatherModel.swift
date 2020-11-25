@@ -15,7 +15,7 @@ struct WeatherModel {
     
     //that's how we can present only 1 decimal after the dot from temperature
     var stringTemp: String {
-        return String(format: "%.1", temperature)
+        return String(format: "%.1f", temperature)
     }
     
     //computed property because the value is going to be based on computation
